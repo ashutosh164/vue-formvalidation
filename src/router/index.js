@@ -34,6 +34,13 @@ const routes = [
     component: JobsDetails,
     props: true
   },
+
+  //redirect 
+
+  {
+    path: '/all-jobs',
+    redirect: '/jobs',
+  },
 ]
 
 const router = createRouter({
